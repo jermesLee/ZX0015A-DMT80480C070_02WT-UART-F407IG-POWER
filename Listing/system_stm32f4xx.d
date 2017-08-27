@@ -1,0 +1,17 @@
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\system_stm32f4xx.c
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\stm32f4xx.h
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\core_cm4.h
+..\listing\system_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\core_cmInstr.h
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\core_cmFunc.h
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\core_cm4_simd.h
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\system_stm32f4xx.h
+..\listing\system_stm32f4xx.o: ..\User\stm32f4xx_conf.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\stm32f4xx_dma.h
+..\listing\system_stm32f4xx.o: ..\Libraries\CMSIS\stm32f4xx.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\stm32f4xx_gpio.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\stm32f4xx_rcc.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\stm32f4xx_tim.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\stm32f4xx_usart.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\misc.h
+..\listing\system_stm32f4xx.o: ..\Libraries\FWlib\inc\stm32f4xx_fsmc.h

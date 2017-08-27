@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+"..\listing\startup_stm32f40_41xxx.o"
+"..\listing\system_stm32f4xx.o"
+"..\listing\misc.o"
+"..\listing\stm32f4xx_crc.o"
+"..\listing\stm32f4xx_fsmc.o"
+"..\listing\stm32f4xx_gpio.o"
+"..\listing\stm32f4xx_rcc.o"
+"..\listing\stm32f4xx_tim.o"
+"..\listing\stm32f4xx_usart.o"
+"..\listing\stm32f4xx_dma.o"
+"..\listing\stm32f4xx_dma2d.o"
+"..\listing\main.o"
+"..\listing\stm32f4xx_it.o"
+"..\listing\led.o"
+"..\listing\time6.o"
+"..\listing\usart1.o"
+"..\listing\dwin_lcd.o"
+"..\listing\crc16.o"
+"..\listing\time5_encoder.o"
+"..\listing\time3_encoder.o"
+"..\listing\fsmc.o"
+"..\listing\fpga_communication.o"
+"..\listing\dwin_lcd_communication.o"
+--strict --scatter "..\Listing\STM32F407.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Listing\STM32F407.map" -o ..\Listing\STM32F407.axf
